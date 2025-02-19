@@ -1,0 +1,31 @@
+package seleniumwebdriver;
+
+import java.util.Scanner;
+
+public class palindromess {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a string");
+		String str=sc.next();
+		String org_num=str;
+		int len=str.length();
+		String rev="";
+		for(int i=len-1;i>=0;i--)
+		{
+			rev=rev+str.charAt(i);
+		}
+		System.out.println(rev);
+		if(org_num.equals(rev))
+		{
+			System.out.println(org_num+" palindrome number");
+		}
+		else
+		{
+			System.out.println(org_num+" not palindrome number");
+
+		}
+
+	}
+
+}

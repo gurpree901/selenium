@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="day1.hardvssoftassertion"/>
+      <class name="day1.firsttestcase"/>
+      <class name="day1.annotationsdemo"/>
+      <class name="day1.signuptest"/>
+      <class name="day1.dependsonmethod"/>
+      <class name="day1.classanootatio"/>
+      <class name="day1.logintest"/>
+      <class name="day1.Annotationdemo"/>
+      <class name="day1.annotatij"/>
+      <class name="day1.Assertiondemo"/>
+      <class name="day1.hardAssertion"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

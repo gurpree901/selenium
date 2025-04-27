@@ -7,10 +7,10 @@ public class dataproviddhr {
 	public static void main(String[] args) {
 		WebDriver driver;
 		
-		 public void setup()
-		 {
-			 
-		 }
+//		 public void setup()
+//		 {
+//			 
+//		 }
 		 
 		
 			

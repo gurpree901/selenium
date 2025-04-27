@@ -1,0 +1,12 @@
+package day2;
+
+public class wrapperclass {
+
+	public static void main(String[] args) {
+		String str1="100";
+		String str2="333";
+		int sum= Integer.parseInt(str1)+Integer.parseInt(str2);
+
+	}
+
+}

@@ -20,11 +20,11 @@ public class palindromeString {
 		
 		if(org_str.equals(rev))
 		{
-			System.out.println("palindorme string");
+			System.out.println(org_str+"palindorme string");
 		}
 		else
 		{
-			System.out.println("not palindorme");
+			System.out.println(org_str+"not palindorme");
 		}
 		
 		

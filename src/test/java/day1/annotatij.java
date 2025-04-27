@@ -48,7 +48,7 @@ public class annotatij {
 	}
 	}
 	
-	javaScriptExecutor js=driver;
+	//javaScriptExecutor js=driver;
 
 	
 }

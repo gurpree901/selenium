@@ -3,14 +3,12 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="day4.ornagehrmm">
+      <class name="day9.parreleltesting">
         <methods>
+          <include name="testlogin"/>
           <include name="setup"/>
-          <include name="testurl"/>
-          <include name="testlogo"/>
-          <include name="testtitle"/>
         </methods>
-      </class> <!-- day4.ornagehrmm -->
+      </class> <!-- day9.parreleltesting -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

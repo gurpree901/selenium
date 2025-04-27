@@ -1,0 +1,34 @@
+package revesion;
+
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class autosuggestionsnj {
+
+	public static void main(String[] args) {
+		WebDriver driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://www.google.co.in/");
+		driver.manage().window().maximize();
+		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("Selenium");
+	List<WebElement>	lists=driver.findElements(By.xpath("//ul[@class='G43f7e']//li//div[@class='wM6W7d']//span"));
+	System.out.println("print all elemnts:"+lists.size());
+	for(int i=0;i<lists.size();i++)
+	{
+		System.out.println(lists.get(i).getText());
+		if(lists.get(i).getText().equals("selenium "))
+		{
+			lists.get(i).click();
+			break;
+		}
+	}
+		
+	
+	}
+
+}

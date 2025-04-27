@@ -1,0 +1,11 @@
+package day2;
+
+public class stringvlo {
+
+	public static void main(String[] args) {
+		int x=10;
+		String str=String.valueOf(x);
+
+	}
+
+}
